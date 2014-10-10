@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Flip : Card flip with js and css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Flip</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ranjithpandig/Flip">View on GitHub</a>
+
+          <h1 id="project_title">Flip</h1>
+          <h2 id="project_tagline">Card flip with js and css</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ranjithpandig/Flip/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ranjithpandig/Flip/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        
+
+<p>&lt;!DOCTYPE html&gt;
+
+</p>
+Flip card on click and mouse over
+
+
+.flipdiv, .flipdiv1 {
+width: 300px;
+height: 300px;
+position: relative;
+float: left;
+margin-right: 10px;
+-webkit-transition: -webkit-transform 1s;
+-moz-transition: -moz-transform 1s;
+-o-transition: -o-transform 1s;
+transition: transform 1s;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+.flipdiv:hover, .turned {
+-webkit-transform: rotateY( 180deg );
+-moz-transform: rotateY( 180deg );
+-o-transform: rotateY( 180deg );
+transform: rotateY( 180deg );
+}
+.flipdiv div, .flipdiv1 div {
+width: 300px;
+height: 300px;
+line-height: 150px;
+color: white;
+text-align: center;
+font-weight: bold;
+font-size: 50px;
+position: absolute;
+border-radius: 15px;
+cursor: pointer;
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+.front {
+background: red;
+}
+.back {
+background: blue;
+-webkit-transform: rotateY( 180deg );
+-moz-transform: rotateY( 180deg );
+-o-transform: rotateY( 180deg );
+transform: rotateY( 180deg );
+}
+
+
+<p>
+</p>
+
+<div>
+<div>Front</div>
+<div>Back</div>
+</div>
+
+<div>
+<div>Front</div>
+<div>Back</div>
+</div>
+
+
+
+
+
+<p>
+</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Flip maintained by <a href="https://github.com/ranjithpandig">ranjithpandig</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
